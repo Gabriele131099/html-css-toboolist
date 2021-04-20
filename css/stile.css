@@ -1,22 +1,23 @@
+            /* comndi generali */
 *
 {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 }
-
+             /* comndi generali */
 body
 {
     background-color: rgb(229, 226, 226);
     width: 70%;
 }
-
+        /* colore logo */
 header
 {
     background-color: white;
     height: 10vh;
 }
-
+        /* contenitore   */
 article
 {
     padding: 10px;
@@ -26,7 +27,7 @@ article
     background-color: white;
     margin-top:1px;
 }
-
+/* togli puntino dalla lista */
 ul
 {
     list-style-type: none;
@@ -37,6 +38,7 @@ li
     margin-bottom: 15px;;  
 }
 
+        /* logo e testo */
 .logo
 {
     margin-left: 20px;
@@ -51,16 +53,29 @@ li
     font-family:'Times New Roman', Times, serif;
 }
 
+/* bottoni primo contenitore */
 .bottone-alto , .add-task , .add-section
 {
     color:white;
     border: none;
     border-radius: 10%;
     padding: 5px;
-
+    
 }
 
+.add-task
+{
+    background-color: rgb(77, 128, 238);
+    
+}
+.add-section
+{
+    border: 1px solid black;
+    background-color: white;
+    color: grey;
+}
 
+/* bottoni e colori secondo contenire */
 .bottone-basso 
 {
     border: none;
@@ -99,20 +114,7 @@ li
     background-color: rgb(38, 121, 45);
 }
 
-
-.add-task
-{
-    background-color: rgb(77, 128, 238);
-
-}
-
-.add-section
-{
-    border: 1px solid black;
-    background-color: white;
-    color: grey;
-}
-
+            /* cerchio e colore */
 .tondo
 {
     border-radius: 80%;
