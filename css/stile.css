@@ -1,0 +1,137 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    background-color: rgb(229, 226, 226);
+    width: 70%;
+}
+
+header
+{
+    background-color: white;
+    height: 10vh;
+}
+
+article
+{
+    padding: 10px;
+    padding-left: 50px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top:1px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+li
+{
+    margin-bottom: 15px;;  
+}
+
+.logo
+{
+    margin-left: 20px;
+    vertical-align:middle;
+    width: 60px;
+}
+
+.logo-test
+{
+    font-size: 50px;
+    font-style: normal;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.bottone-alto , .add-task , .add-section
+{
+    color:white;
+    border: none;
+    border-radius: 10%;
+    padding: 5px;
+
+}
+
+
+.bottone-basso 
+{
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.col1
+{
+    background-color: rgb(77, 128, 238);
+}
+
+.col2
+{
+    background-color:purple;
+}
+
+.col3
+{
+    background-color: rgb(7, 107, 37);
+}
+
+.col4
+{
+    background-color: orange;
+}
+
+.col5
+{
+    background-color:palevioletred;
+}
+
+.col6
+{
+    background-color: rgb(38, 121, 45);
+}
+
+
+.add-task
+{
+    background-color: rgb(77, 128, 238);
+
+}
+
+.add-section
+{
+    border: 1px solid black;
+    background-color: white;
+    color: grey;
+}
+
+.tondo
+{
+    border-radius: 80%;
+    display: inline;
+    font-size: 15px;
+    padding-right: 4px;
+    padding-left: 1px;
+    padding-top: 1px;
+    margin-bottom: 1px;
+}
+
+.rosso
+{
+    border:1px solid red;
+    color: red;
+}
+
+.verde
+{
+    border:1px solid green;
+    color: green;
+}
